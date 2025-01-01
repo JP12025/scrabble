@@ -15,12 +15,10 @@ In the game of Scrabble, players create words to score points, and the number of
 
 For example, if we wanted to score the word “CODE”, we would note that the ‘C’ is worth 3 points, the ‘O’ is worth 1 point, the ‘D’ is worth 2 points, and the ‘E’ is worth 1 point. Summing these, we get that “CODE” is worth 7 points.
 
-In a file called `scrabble.py`, implement a program in python that determines the winner of a short Scrabble-like game. Your program should prompt for input twice: once for “Player 1” to input their word and once for “Player 2” to input their word. Then, depending on which player scores the most points, your program should either print “Player 1 wins!”, “Player 2 wins!”, or “Tie!” (in the event the two players score equal points).
+In a python script called `scrabble`, implement a program that determines the winner of a short Scrabble-like game. Your program should prompt for input twice: once for “Player 1” to input their word and once for “Player 2” to input their word. Then, depending on which player scores the most points, your program should either print “Player 1 wins!”, “Player 2 wins!”, or “Tie!” (in the event the two players score equal points). There is an infinite number of each letter.
 
-
-> [!TIP]
-> Your program should not be case-sensitive. You'll need `upper` or `lower` function from `str`
-
+> [!Note]
+> Your program should be executable. Do you remember what's needed?
 
 # When to Do it
 
@@ -28,7 +26,7 @@ By Sunday, january 19, 2025 at 11:59 PM
 
 # How to Test
 
-- Test your script with command `./check scrabble.py`
+- Test your script with command `./check scrabble`
 
 Your program should behave per the examples below.
 ```bash
@@ -37,6 +35,11 @@ Player 1: Question?
 Player 2: Question!
 Tie!
 ```
+
+> [!Note]
+> Ask yourself: What do I do with punctuation marks?
+
+
 ```bash
 $ ./scrabble
 Player 1: red
@@ -53,8 +56,12 @@ Player 1 wins!
 $ ./scrabble
 Player 1: Scrabble
 Player 2: wiNNeR
-Player 1 wins!
+Player 2 wins!
 ```
+
+> [!TIP]
+> Your program should not be case-sensitive. You'll need `upper` or `lower` function from `str`. 
+> Read the Doc!
 
 # How to Submit
 
