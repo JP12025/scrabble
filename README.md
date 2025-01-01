@@ -17,6 +17,11 @@ For example, if we wanted to score the word “CODE”, we would note that the �
 
 In a file called `scrabble.py`, implement a program in python that determines the winner of a short Scrabble-like game. Your program should prompt for input twice: once for “Player 1” to input their word and once for “Player 2” to input their word. Then, depending on which player scores the most points, your program should either print “Player 1 wins!”, “Player 2 wins!”, or “Tie!” (in the event the two players score equal points).
 
+
+> [!TIP]
+> Your program should not be case-sensitive. You'll need `upper` or `lower` function from `str`
+
+
 # When to Do it
 
 By Sunday, january 19, 2025 at 11:59 PM
