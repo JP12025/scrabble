@@ -25,6 +25,32 @@ By Sunday, january 19, 2025 at 11:59 PM
 
 - Test your script with command `./check scrabble.py`
 
+Your program should behave per the examples below.
+```bash
+$ ./scrabble
+Player 1: Question?
+Player 2: Question!
+Tie!
+```
+```bash
+$ ./scrabble
+Player 1: red
+Player 2: wheelbarrow
+Player 2 wins!
+```
+```bash
+$ ./scrabble
+Player 1: COMPUTER
+Player 2: science
+Player 1 wins!
+```
+```bash
+$ ./scrabble
+Player 1: Scrabble
+Player 2: wiNNeR
+Player 1 wins!
+```
+
 # How to Submit
 
 Once you're done with all tasks, submit all your python files on Moodle
