@@ -54,3 +54,7 @@ Player 1 wins!
 # How to Submit
 
 Once you're done with all tasks, submit all your python files on Moodle
+
+# Licence
+
+This course is freely inspird from [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2025/) Harvard. It is licensed under a [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
