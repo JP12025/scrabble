@@ -4,9 +4,6 @@
 EXP_SCRIPT="scrabble"
 
 # Text colors
-Red='\033[0;31m'
-COLOR_REST='\033[0m' 
-Green='\033[0;32m'
 COLOR_REST="$(tput sgr0)"
 COLOR_RED="$(tput setaf 1)"
 COLOR_GREEN="$(tput setaf 2)"
@@ -43,7 +40,7 @@ fi
 ##################################################
 if [ "${GIVEN_SCRIPT}" != "${EXP_SCRIPT}" ]
 then
-    printf "You must give ${EXP_SCRIPT} in param\n"
+    printf "Give the script name in command line\n"
     exit
 fi
 
