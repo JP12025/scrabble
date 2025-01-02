@@ -52,7 +52,7 @@ fi
 ##################################################
 if [ ! -f "${EXP_SCRIPT}" ]
 then
-    printf "File not found: ${EXP_SCRIPT}"
+    printf "File not found: ${EXP_SCRIPT}\n"
     exit
 fi
 
