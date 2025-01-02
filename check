@@ -101,7 +101,7 @@ run_test "Scrabble   " "05"
 ##################################################
 if [ ${NB_TEST_OK} -eq ${NB_TEST_TOTAL} ]
 then
-    printf "Validated: ${COLOR_GREEN}${NB_TEST_OK}/${NB_TEST_TOTAL}${COLOR_REST}"
+    printf "Validated: ${COLOR_GREEN}${NB_TEST_OK}/${NB_TEST_TOTAL}${COLOR_REST}\n"
 else
-    printf "Validated: ${COLOR_RED}${NB_TEST_OK}/${NB_TEST_TOTAL}${COLOR_REST}"
+    printf "Validated: ${COLOR_RED}${NB_TEST_OK}/${NB_TEST_TOTAL}${COLOR_REST}\n"
 fi
