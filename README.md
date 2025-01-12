@@ -20,6 +20,15 @@ In a python script called `scrabble`, implement a program that determines the wi
 > [!Note]
 > Your program should be executable. Do you remember what's needed?
 
+The main difficulty is to store and retreive scores for each letter. 
+Among your class, those who already know python will probably use a dictionary for this task.
+
+It may be a little bit too difficult for others. 
+Instead, simply store scores in a list in alphbetical order.
+Thus, score of letter A (`1`) will be at position `0`, B (`3`) at position `1` ... Z (`10`) at position `25`.
+
+Now, ask yourself: what is the position of `B` in string `ABCDEFGHIJKLMNOPQRSTUVWXYZ`? Is there a function to search for a letter in a string? (spoiler: yes there is)
+
 # When to Do it
 
 By Sunday, january 19, 2025 at 11:59 PM
