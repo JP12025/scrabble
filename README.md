@@ -27,7 +27,8 @@ It may be a little bit too difficult for others.
 Instead, simply store scores in a list in alphbetical order.
 Thus, score of letter A (`1`) will be at position `0`, B (`3`) at position `1` ... Z (`10`) at position `25`.
 
-Now, ask yourself: what is the position of `B` in string `ABCDEFGHIJKLMNOPQRSTUVWXYZ`? Is there a function to search for a letter in a string? (spoiler: yes there is)
+Now, ask yourself: what is the position of `B` in string `ABCDEFGHIJKLMNOPQRSTUVWXYZ`? 
+Is there a function to search for a letter in a string that returns its position (a.k.a. index)? (spoiler: yes there is)
 
 # When to Do it
 
