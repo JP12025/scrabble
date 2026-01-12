@@ -32,7 +32,7 @@ Is there a function to search for a letter in a string that returns its position
 
 # When to Do it
 
-By Sunday, january 19, 2025 at 11:59 PM
+By Sunday, january 18, 2026 at 11:59 PM
 
 # How to Test
 
