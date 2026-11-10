@@ -43,23 +43,10 @@ Tie!
 > [!Note]
 > Ask yourself: What do I do with punctuation marks?
 
-
 ```bash
 $ python scrabble.py
 Player 1: red
 Player 2: wheelbarrow
-Player 2 wins!
-```
-```bash
-$ python scrabble.py
-Player 1: COMPUTER
-Player 2: science
-Player 1 wins!
-```
-```bash
-$ python scrabble.py
-Player 1: Scrabble
-Player 2: wiNNeR
 Player 2 wins!
 ```
 
