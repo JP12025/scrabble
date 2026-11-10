@@ -31,6 +31,8 @@ Is there a function to search for a letter in a string that returns its position
 
 Your program should behave per the examples below.
 
+![Demo of scrabble.py](scrabble.gif)
+
 ```bash
 $ python scrabble.py
 Player 1: Question?
